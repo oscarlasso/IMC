@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="TITULO1" translatable="false">CALCULATOR BMI</string>
+    <string name="TITULO2">WEIGHT IN KILOGRAMS</string>
+    <string name="TITULO3">METER STATUS</string>
+    <string name="TITULO4">CALCULATE</string>
+    <string name="TITULO5">ABOUT</string>
+    <string name="TITULO6">GET OUT</string>
+    <string name="TITULO7">MARIANA UNIVERSITY</string>
+    <string name="TITULO8">SYSTEMS ENGINEER</string>
+    <string name="delgadezsevera">You have severe thinness</string>
+    <string name="tuimc">\"You ibm is: \"</string>
+    <string name="obesidadmorbida">You have morbid obesity</string>
+    <string name="delgadezmoderada">You have moderate thinness</string>
+    <string name="delgadezleve">You have slight thinness</string>
+    <string name="pesonormal">You have normal weight</string>
+    <string name="tienespreobesidad">you have Preobesity</string>
+    <string name="obesidadleve">You have mild obesity</string>
+    <string name="obesidadmedia">You have average obesity</string>
+    <string name="dos">\"you ibm is: \"</string>
+    <string name="tres">\"you ibm is: \"</string>
+    <string name="cuatro">\"you ibm is: \"</string>
+    <string name="cinco">\"you ibm is: \"</string>
+    <string name="seis">\"you ibm is: \"</string>
+    <string name="siete">\"you ibm is: \"</string>
+    <string name="ocho">\"you ibm is: \"</string>
+    <string name="TITULO9">RETURN</string>
+    <string name="TITULO10">HISTORICAL</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ingenieria.imc.MainActivity">
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="@string/TITULO2"
+       android:id="@+id/textView"
+        android:textSize="20sp"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="@string/TITULO3"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/peso"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_alignBottom="@+id/textView"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:id="@+id/estatura"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignRight="@+id/peso"
+        android:layout_alignEnd="@+id/peso"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TITULO4"
+        android:id="@+id/calcular"
+        android:textColor="@color/colorPrimaryDark"
+
+
+        android:layout_above="@+id/resultado"
+        android:layout_centerHorizontal="true"
+        android:onClick="calcular"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/TITULO5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultado"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="57dp"
+        android:id="@+id/button"
+        android:onClick="acercade"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="@string/TITULO1"
+        android:id="@+id/titulo"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/calcular"
+        android:layout_alignEnd="@+id/calcular"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp" />
+
+    <Button
+        android:text="@string/TITULO10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp"
+        android:id="@+id/button3"
+        android:textSize="20sp"
+        android:onClick="historial" />
+
+</RelativeLayout>
